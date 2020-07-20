@@ -69,7 +69,7 @@ def showCluster(dataSet,k,centroids,clusterAssment):
         plt.scatter(dataSet[i,0],dataSet[i,1],c=colorSet.sc[markIndex][1],marker=colorSet.sc[markIndex][0])
 
     plt.show()
-dataSet = input_op.loadDataSet('BGL_2k.log')
+dataSet = input_op.loadDataSet('E:\保研资料\project\log_classifier\kMeans_Log\BGL_2k.log')
 k = 120
 centroids,clusterAssment = KMeans(dataSet,k)
  
