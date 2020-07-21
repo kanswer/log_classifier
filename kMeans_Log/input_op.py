@@ -33,7 +33,4 @@ def loadDataSet(filename):
         dataset.append(first)          
         dataset.append(second)
         Contents.append(dataset)
-    print(Contents)
     return numpy.array(Contents)
-
-loadDataSet('E:\保研资料\project\log_classifier\kMeans_Log\BGL_2k.log')

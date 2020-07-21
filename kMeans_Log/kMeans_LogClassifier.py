@@ -72,5 +72,5 @@ def showCluster(dataSet,k,centroids,clusterAssment):
 dataSet = input_op.loadDataSet('E:\保研资料\project\log_classifier\kMeans_Log\BGL_2k.log')
 k = 120
 centroids,clusterAssment = KMeans(dataSet,k)
- 
+np.savetxt('Cluster',centroids)
 showCluster(dataSet,k,centroids,clusterAssment)
